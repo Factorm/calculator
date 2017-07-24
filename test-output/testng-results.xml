@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="9" passed="9">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="40133" started-at="2017-07-24T08:18:17Z" finished-at="2017-07-24T08:18:57Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="40133" started-at="2017-07-24T08:18:17Z" finished-at="2017-07-24T08:18:57Z">
+      <class name="tests.calculatorAddTest">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:tests.calculatorAddTest@204f30ec]" name="beforeMethod" is-config="true" duration-ms="3797" started-at="2017-07-24T10:18:17Z" finished-at="2017-07-24T10:18:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.calculatorAddTest.shouldAddTwoNumbers(java.lang.String,java.lang.String) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="shouldAddTwoNumbers(java.lang.String, java.lang.String)[pri:0, instance:tests.calculatorAddTest@204f30ec]" name="shouldAddTwoNumbers" duration-ms="430" started-at="2017-07-24T10:18:21Z" data-provider="addData" finished-at="2017-07-24T10:18:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldAddTwoNumbers -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:tests.calculatorAddTest@204f30ec]" name="afterMethod" is-config="true" duration-ms="985" started-at="2017-07-24T10:18:21Z" finished-at="2017-07-24T10:18:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=shouldAddTwoNumbers status=SUCCESS method=calculatorAddTest.shouldAddTwoNumbers(java.lang.String, java.lang.String)[pri:0, instance:tests.calculatorAddTest@204f30ec] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void tests.calculatorAddTest.shouldAddTwoNumbers(java.lang.String,java.lang.String) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:tests.calculatorAddTest@204f30ec]" name="beforeMethod" is-config="true" duration-ms="3266" started-at="2017-07-24T10:18:22Z" finished-at="2017-07-24T10:18:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.calculatorAddTest.shouldAddTwoNumbers(java.lang.String,java.lang.String) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="shouldAddTwoNumbers(java.lang.String, java.lang.String)[pri:0, instance:tests.calculatorAddTest@204f30ec]" name="shouldAddTwoNumbers" duration-ms="400" started-at="2017-07-24T10:18:26Z" data-provider="addData" finished-at="2017-07-24T10:18:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldAddTwoNumbers -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:tests.calculatorAddTest@204f30ec]" name="afterMethod" is-config="true" duration-ms="718" started-at="2017-07-24T10:18:26Z" finished-at="2017-07-24T10:18:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=shouldAddTwoNumbers status=SUCCESS method=calculatorAddTest.shouldAddTwoNumbers(java.lang.String, java.lang.String)[pri:0, instance:tests.calculatorAddTest@204f30ec] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void tests.calculatorAddTest.shouldAddTwoNumbers(java.lang.String,java.lang.String) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:tests.calculatorAddTest@204f30ec]" name="beforeMethod" is-config="true" duration-ms="3209" started-at="2017-07-24T10:18:27Z" finished-at="2017-07-24T10:18:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.calculatorAddTest.shouldAddTwoNumbers(java.lang.String,java.lang.String) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="shouldAddTwoNumbers(java.lang.String, java.lang.String)[pri:0, instance:tests.calculatorAddTest@204f30ec]" name="shouldAddTwoNumbers" duration-ms="396" started-at="2017-07-24T10:18:30Z" data-provider="addData" finished-at="2017-07-24T10:18:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldAddTwoNumbers -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:tests.calculatorAddTest@204f30ec]" name="afterMethod" is-config="true" duration-ms="711" started-at="2017-07-24T10:18:30Z" finished-at="2017-07-24T10:18:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=shouldAddTwoNumbers status=SUCCESS method=calculatorAddTest.shouldAddTwoNumbers(java.lang.String, java.lang.String)[pri:0, instance:tests.calculatorAddTest@204f30ec] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void tests.calculatorAddTest.shouldAddTwoNumbers(java.lang.String,java.lang.String) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:tests.calculatorAddTest@204f30ec]" name="beforeMethod" is-config="true" duration-ms="3171" started-at="2017-07-24T10:18:31Z" finished-at="2017-07-24T10:18:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.calculatorAddTest.shouldAddTwoNumbers(java.lang.String,java.lang.String) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="shouldAddTwoNumbers(java.lang.String, java.lang.String)[pri:0, instance:tests.calculatorAddTest@204f30ec]" name="shouldAddTwoNumbers" duration-ms="396" started-at="2017-07-24T10:18:34Z" data-provider="addData" finished-at="2017-07-24T10:18:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldAddTwoNumbers -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:tests.calculatorAddTest@204f30ec]" name="afterMethod" is-config="true" duration-ms="723" started-at="2017-07-24T10:18:35Z" finished-at="2017-07-24T10:18:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=shouldAddTwoNumbers status=SUCCESS method=calculatorAddTest.shouldAddTwoNumbers(java.lang.String, java.lang.String)[pri:0, instance:tests.calculatorAddTest@204f30ec] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void tests.calculatorAddTest.shouldAddTwoNumbers(java.lang.String,java.lang.String) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:tests.calculatorAddTest@204f30ec]" name="beforeMethod" is-config="true" duration-ms="3177" started-at="2017-07-24T10:18:35Z" finished-at="2017-07-24T10:18:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.calculatorAddTest.shouldAddTwoNumbers(java.lang.String,java.lang.String) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="shouldAddTwoNumbers(java.lang.String, java.lang.String)[pri:0, instance:tests.calculatorAddTest@204f30ec]" name="shouldAddTwoNumbers" duration-ms="397" started-at="2017-07-24T10:18:39Z" data-provider="addData" finished-at="2017-07-24T10:18:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldAddTwoNumbers -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:tests.calculatorAddTest@204f30ec]" name="afterMethod" is-config="true" duration-ms="718" started-at="2017-07-24T10:18:39Z" finished-at="2017-07-24T10:18:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=shouldAddTwoNumbers status=SUCCESS method=calculatorAddTest.shouldAddTwoNumbers(java.lang.String, java.lang.String)[pri:0, instance:tests.calculatorAddTest@204f30ec] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void tests.calculatorAddTest.shouldAddTwoNumbers(java.lang.String,java.lang.String) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:tests.calculatorAddTest@204f30ec]" name="beforeMethod" is-config="true" duration-ms="3183" started-at="2017-07-24T10:18:40Z" finished-at="2017-07-24T10:18:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.calculatorAddTest.shouldAddTwoNumbers(java.lang.String,java.lang.String) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="shouldAddTwoNumbers(java.lang.String, java.lang.String)[pri:0, instance:tests.calculatorAddTest@204f30ec]" name="shouldAddTwoNumbers" duration-ms="398" started-at="2017-07-24T10:18:43Z" data-provider="addData" finished-at="2017-07-24T10:18:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldAddTwoNumbers -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:tests.calculatorAddTest@204f30ec]" name="afterMethod" is-config="true" duration-ms="726" started-at="2017-07-24T10:18:43Z" finished-at="2017-07-24T10:18:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=shouldAddTwoNumbers status=SUCCESS method=calculatorAddTest.shouldAddTwoNumbers(java.lang.String, java.lang.String)[pri:0, instance:tests.calculatorAddTest@204f30ec] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void tests.calculatorAddTest.shouldAddTwoNumbers(java.lang.String,java.lang.String) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:tests.calculatorAddTest@204f30ec]" name="beforeMethod" is-config="true" duration-ms="3177" started-at="2017-07-24T10:18:44Z" finished-at="2017-07-24T10:18:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.calculatorAddTest.shouldAddTwoNumbers(java.lang.String,java.lang.String) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="shouldAddTwoNumbers(java.lang.String, java.lang.String)[pri:0, instance:tests.calculatorAddTest@204f30ec]" name="shouldAddTwoNumbers" duration-ms="393" started-at="2017-07-24T10:18:47Z" data-provider="addData" finished-at="2017-07-24T10:18:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldAddTwoNumbers -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:tests.calculatorAddTest@204f30ec]" name="afterMethod" is-config="true" duration-ms="715" started-at="2017-07-24T10:18:48Z" finished-at="2017-07-24T10:18:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=shouldAddTwoNumbers status=SUCCESS method=calculatorAddTest.shouldAddTwoNumbers(java.lang.String, java.lang.String)[pri:0, instance:tests.calculatorAddTest@204f30ec] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void tests.calculatorAddTest.shouldAddTwoNumbers(java.lang.String,java.lang.String) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:tests.calculatorAddTest@204f30ec]" name="beforeMethod" is-config="true" duration-ms="3175" started-at="2017-07-24T10:18:48Z" finished-at="2017-07-24T10:18:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.calculatorAddTest.shouldAddTwoNumbers(java.lang.String,java.lang.String) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="shouldAddTwoNumbers(java.lang.String, java.lang.String)[pri:0, instance:tests.calculatorAddTest@204f30ec]" name="shouldAddTwoNumbers" duration-ms="390" started-at="2017-07-24T10:18:51Z" data-provider="addData" finished-at="2017-07-24T10:18:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldAddTwoNumbers -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:tests.calculatorAddTest@204f30ec]" name="afterMethod" is-config="true" duration-ms="706" started-at="2017-07-24T10:18:52Z" finished-at="2017-07-24T10:18:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=shouldAddTwoNumbers status=SUCCESS method=calculatorAddTest.shouldAddTwoNumbers(java.lang.String, java.lang.String)[pri:0, instance:tests.calculatorAddTest@204f30ec] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void tests.calculatorAddTest.shouldAddTwoNumbers(java.lang.String,java.lang.String) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:tests.calculatorAddTest@204f30ec]" name="beforeMethod" is-config="true" duration-ms="3181" started-at="2017-07-24T10:18:53Z" finished-at="2017-07-24T10:18:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.calculatorAddTest.shouldAddTwoNumbers(java.lang.String,java.lang.String) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="shouldAddTwoNumbers(java.lang.String, java.lang.String)[pri:0, instance:tests.calculatorAddTest@204f30ec]" name="shouldAddTwoNumbers" duration-ms="386" started-at="2017-07-24T10:18:56Z" data-provider="addData" finished-at="2017-07-24T10:18:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldAddTwoNumbers -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:tests.calculatorAddTest@204f30ec]" name="afterMethod" is-config="true" duration-ms="724" started-at="2017-07-24T10:18:56Z" finished-at="2017-07-24T10:18:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=shouldAddTwoNumbers status=SUCCESS method=calculatorAddTest.shouldAddTwoNumbers(java.lang.String, java.lang.String)[pri:0, instance:tests.calculatorAddTest@204f30ec] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void tests.calculatorAddTest.shouldAddTwoNumbers(java.lang.String,java.lang.String) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- tests.calculatorAddTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
