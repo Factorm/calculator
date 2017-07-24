@@ -28,6 +28,7 @@ public class calculatorDivideTest {
 	public ExtentTest test;
 	public ExtentReports report;
 	private calculatorPage cp;
+	private ResultFactory rf;
 
 	@BeforeMethod
 	public void beforeMethod(Method method) throws Exception {
@@ -68,8 +69,8 @@ public class calculatorDivideTest {
 		cp = new calculatorPage(driver, test);
 		
 		cp.division(value1, value2);
-		
-		Assert.assertTrue(ResultFactory.checkTheResult(value1, value2, "DIVIDE(/)", cp.result()));
+		rf = new ResultFactory(test);
+		Assert.assertTrue(rf.checkTheResult(value1, value2, "DIVIDE(/)", cp.result()));
 	}
 
 }

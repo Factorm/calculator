@@ -28,6 +28,7 @@ public class calculatorSubtractTest {
 	public ExtentTest test;
 	public ExtentReports report;
 	private calculatorPage cp;
+	private ResultFactory rf;
 
 	@BeforeMethod
 	public void beforeMethod(Method method) throws Exception {
@@ -69,7 +70,8 @@ public class calculatorSubtractTest {
 		
 		cp.subtraction(value1, value2);
 		
-		Assert.assertTrue(ResultFactory.checkTheResult(value1, value2, "SUBTRACT(-)", cp.result()));
+		rf = new ResultFactory(test);
+		Assert.assertTrue(rf.checkTheResult(value1, value2, "SUBTRACT(-)", cp.result()));
 	}
 
 }
