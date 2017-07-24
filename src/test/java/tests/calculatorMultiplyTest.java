@@ -62,6 +62,15 @@ public class calculatorMultiplyTest {
 		Object[][] testData = ExcelFactory.getTableArray(File_Path + File_Name, "Arkusz1");
 		return testData;
 	}
+	
+	@DataProvider(name = "wordData")
+	public Object[][] dataProvider2() throws Exception {
+		String File_Path = System.getProperty("user.dir") + "//data//";
+		String File_Name = "data.xlsx";
+		
+		Object[][] testData = ExcelFactory.getTableArray(File_Path + File_Name, "Arkusz2");
+		return testData;
+	}
 
 	@Test(dataProvider="mulData")
 	public void shouldMultiplyTwoNumbers(String value1, String value2)  throws Exception {
@@ -71,6 +80,16 @@ public class calculatorMultiplyTest {
 		cp.multiplication(value1, value2);
 		rf = new ResultFactory(test);
 		Assert.assertTrue(rf.checkTheResult(value1, value2, "MULTIPLY(*)", cp.result()));
+	}
+	
+	@Test(dataProvider="wordData")
+	public void shouldntMultiplyTwoWords(String value1, String value2)  throws Exception {
+		
+		cp = new calculatorPage(driver, test);
+		
+		cp.multiplication(value1, value2);
+		rf = new ResultFactory(test);
+		Assert.assertTrue(rf.checkTheResultWord(cp.result()));
 	}
 
 }

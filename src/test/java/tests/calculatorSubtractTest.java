@@ -62,6 +62,15 @@ public class calculatorSubtractTest {
 		Object[][] testData = ExcelFactory.getTableArray(File_Path + File_Name, "Arkusz1");
 		return testData;
 	}
+	
+	@DataProvider(name = "wordData")
+	public Object[][] dataProvider2() throws Exception {
+		String File_Path = System.getProperty("user.dir") + "//data//";
+		String File_Name = "data.xlsx";
+		
+		Object[][] testData = ExcelFactory.getTableArray(File_Path + File_Name, "Arkusz2");
+		return testData;
+	}
 
 	@Test(dataProvider="subData")
 	public void shouldSubtractTwoNumbers(String value1, String value2)  throws Exception {
@@ -72,6 +81,17 @@ public class calculatorSubtractTest {
 		
 		rf = new ResultFactory(test);
 		Assert.assertTrue(rf.checkTheResult(value1, value2, "SUBTRACT(-)", cp.result()));
+	}
+	
+	@Test(dataProvider="wordData")
+	public void shouldntSubtractTwoWords(String value1, String value2)  throws Exception {
+		
+		cp = new calculatorPage(driver, test);
+		
+		cp.subtraction(value1, value2);
+		
+		rf = new ResultFactory(test);
+		Assert.assertTrue(rf.checkTheResultWord(cp.result()));
 	}
 
 }

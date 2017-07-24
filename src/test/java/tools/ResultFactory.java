@@ -74,6 +74,20 @@ public class ResultFactory {
 		return false;
 	}
 
+	public boolean checkTheResultWord(String pageResult) {
+
+			if (pageResult.equals("NaN")) {
+
+				test.log(LogStatus.INFO, "pageResult is: " + pageResult + " it's good");
+				return true;
+
+			} else {
+				
+				test.log(LogStatus.WARNING, "pageResult is: " + pageResult + " it's bad!!!");
+				return false;
+			}
+	}
+
 	static public double round(double d) {
 		java.text.NumberFormat nf = java.text.NumberFormat.getInstance();
 		int ic = 18;
