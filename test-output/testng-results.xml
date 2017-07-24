@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" ignored="0" total="9" passed="9">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="40133" started-at="2017-07-24T08:18:17Z" finished-at="2017-07-24T08:18:57Z">
+  <suite name="Default suite" duration-ms="44124" started-at="2017-07-24T09:50:36Z" finished-at="2017-07-24T09:51:20Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="40133" started-at="2017-07-24T08:18:17Z" finished-at="2017-07-24T08:18:57Z">
+    <test name="Default test" duration-ms="44124" started-at="2017-07-24T09:50:36Z" finished-at="2017-07-24T09:51:20Z">
       <class name="tests.calculatorAddTest">
-        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:tests.calculatorAddTest@204f30ec]" name="beforeMethod" is-config="true" duration-ms="3797" started-at="2017-07-24T10:18:17Z" finished-at="2017-07-24T10:18:21Z">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:tests.calculatorAddTest@204f30ec]" name="beforeMethod" is-config="true" duration-ms="4464" started-at="2017-07-24T11:50:36Z" finished-at="2017-07-24T11:50:41Z">
           <params>
             <param index="0">
               <value>
@@ -18,7 +18,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="shouldAddTwoNumbers(java.lang.String, java.lang.String)[pri:0, instance:tests.calculatorAddTest@204f30ec]" name="shouldAddTwoNumbers" duration-ms="430" started-at="2017-07-24T10:18:21Z" data-provider="addData" finished-at="2017-07-24T10:18:21Z">
+        <test-method status="PASS" signature="shouldAddTwoNumbers(java.lang.String, java.lang.String)[pri:0, instance:tests.calculatorAddTest@204f30ec]" name="shouldAddTwoNumbers" duration-ms="436" started-at="2017-07-24T11:50:41Z" data-provider="addData" finished-at="2017-07-24T11:50:41Z">
           <params>
             <param index="0">
               <value>
@@ -34,7 +34,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- shouldAddTwoNumbers -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:tests.calculatorAddTest@204f30ec]" name="afterMethod" is-config="true" duration-ms="985" started-at="2017-07-24T10:18:21Z" finished-at="2017-07-24T10:18:22Z">
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:tests.calculatorAddTest@204f30ec]" name="afterMethod" is-config="true" duration-ms="1017" started-at="2017-07-24T11:50:41Z" finished-at="2017-07-24T11:50:42Z">
           <params>
             <param index="0">
               <value>
@@ -50,7 +50,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:tests.calculatorAddTest@204f30ec]" name="beforeMethod" is-config="true" duration-ms="3266" started-at="2017-07-24T10:18:22Z" finished-at="2017-07-24T10:18:26Z">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:tests.calculatorAddTest@204f30ec]" name="beforeMethod" is-config="true" duration-ms="3381" started-at="2017-07-24T11:50:42Z" finished-at="2017-07-24T11:50:45Z">
           <params>
             <param index="0">
               <value>
@@ -61,7 +61,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="shouldAddTwoNumbers(java.lang.String, java.lang.String)[pri:0, instance:tests.calculatorAddTest@204f30ec]" name="shouldAddTwoNumbers" duration-ms="400" started-at="2017-07-24T10:18:26Z" data-provider="addData" finished-at="2017-07-24T10:18:26Z">
+        <test-method status="PASS" signature="shouldAddTwoNumbers(java.lang.String, java.lang.String)[pri:0, instance:tests.calculatorAddTest@204f30ec]" name="shouldAddTwoNumbers" duration-ms="399" started-at="2017-07-24T11:50:45Z" data-provider="addData" finished-at="2017-07-24T11:50:46Z">
           <params>
             <param index="0">
               <value>
@@ -77,7 +77,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- shouldAddTwoNumbers -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:tests.calculatorAddTest@204f30ec]" name="afterMethod" is-config="true" duration-ms="718" started-at="2017-07-24T10:18:26Z" finished-at="2017-07-24T10:18:27Z">
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:tests.calculatorAddTest@204f30ec]" name="afterMethod" is-config="true" duration-ms="771" started-at="2017-07-24T11:50:46Z" finished-at="2017-07-24T11:50:47Z">
           <params>
             <param index="0">
               <value>
@@ -93,7 +93,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:tests.calculatorAddTest@204f30ec]" name="beforeMethod" is-config="true" duration-ms="3209" started-at="2017-07-24T10:18:27Z" finished-at="2017-07-24T10:18:30Z">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:tests.calculatorAddTest@204f30ec]" name="beforeMethod" is-config="true" duration-ms="3540" started-at="2017-07-24T11:50:47Z" finished-at="2017-07-24T11:50:50Z">
           <params>
             <param index="0">
               <value>
@@ -104,7 +104,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="shouldAddTwoNumbers(java.lang.String, java.lang.String)[pri:0, instance:tests.calculatorAddTest@204f30ec]" name="shouldAddTwoNumbers" duration-ms="396" started-at="2017-07-24T10:18:30Z" data-provider="addData" finished-at="2017-07-24T10:18:30Z">
+        <test-method status="PASS" signature="shouldAddTwoNumbers(java.lang.String, java.lang.String)[pri:0, instance:tests.calculatorAddTest@204f30ec]" name="shouldAddTwoNumbers" duration-ms="408" started-at="2017-07-24T11:50:50Z" data-provider="addData" finished-at="2017-07-24T11:50:51Z">
           <params>
             <param index="0">
               <value>
@@ -120,7 +120,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- shouldAddTwoNumbers -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:tests.calculatorAddTest@204f30ec]" name="afterMethod" is-config="true" duration-ms="711" started-at="2017-07-24T10:18:30Z" finished-at="2017-07-24T10:18:31Z">
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:tests.calculatorAddTest@204f30ec]" name="afterMethod" is-config="true" duration-ms="740" started-at="2017-07-24T11:50:51Z" finished-at="2017-07-24T11:50:51Z">
           <params>
             <param index="0">
               <value>
@@ -136,7 +136,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:tests.calculatorAddTest@204f30ec]" name="beforeMethod" is-config="true" duration-ms="3171" started-at="2017-07-24T10:18:31Z" finished-at="2017-07-24T10:18:34Z">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:tests.calculatorAddTest@204f30ec]" name="beforeMethod" is-config="true" duration-ms="3575" started-at="2017-07-24T11:50:51Z" finished-at="2017-07-24T11:50:55Z">
           <params>
             <param index="0">
               <value>
@@ -147,7 +147,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="shouldAddTwoNumbers(java.lang.String, java.lang.String)[pri:0, instance:tests.calculatorAddTest@204f30ec]" name="shouldAddTwoNumbers" duration-ms="396" started-at="2017-07-24T10:18:34Z" data-provider="addData" finished-at="2017-07-24T10:18:35Z">
+        <test-method status="PASS" signature="shouldAddTwoNumbers(java.lang.String, java.lang.String)[pri:0, instance:tests.calculatorAddTest@204f30ec]" name="shouldAddTwoNumbers" duration-ms="401" started-at="2017-07-24T11:50:55Z" data-provider="addData" finished-at="2017-07-24T11:50:55Z">
           <params>
             <param index="0">
               <value>
@@ -163,7 +163,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- shouldAddTwoNumbers -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:tests.calculatorAddTest@204f30ec]" name="afterMethod" is-config="true" duration-ms="723" started-at="2017-07-24T10:18:35Z" finished-at="2017-07-24T10:18:35Z">
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:tests.calculatorAddTest@204f30ec]" name="afterMethod" is-config="true" duration-ms="724" started-at="2017-07-24T11:50:55Z" finished-at="2017-07-24T11:50:56Z">
           <params>
             <param index="0">
               <value>
@@ -179,7 +179,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:tests.calculatorAddTest@204f30ec]" name="beforeMethod" is-config="true" duration-ms="3177" started-at="2017-07-24T10:18:35Z" finished-at="2017-07-24T10:18:39Z">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:tests.calculatorAddTest@204f30ec]" name="beforeMethod" is-config="true" duration-ms="3589" started-at="2017-07-24T11:50:56Z" finished-at="2017-07-24T11:51:00Z">
           <params>
             <param index="0">
               <value>
@@ -190,7 +190,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="shouldAddTwoNumbers(java.lang.String, java.lang.String)[pri:0, instance:tests.calculatorAddTest@204f30ec]" name="shouldAddTwoNumbers" duration-ms="397" started-at="2017-07-24T10:18:39Z" data-provider="addData" finished-at="2017-07-24T10:18:39Z">
+        <test-method status="PASS" signature="shouldAddTwoNumbers(java.lang.String, java.lang.String)[pri:0, instance:tests.calculatorAddTest@204f30ec]" name="shouldAddTwoNumbers" duration-ms="400" started-at="2017-07-24T11:51:00Z" data-provider="addData" finished-at="2017-07-24T11:51:00Z">
           <params>
             <param index="0">
               <value>
@@ -206,7 +206,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- shouldAddTwoNumbers -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:tests.calculatorAddTest@204f30ec]" name="afterMethod" is-config="true" duration-ms="718" started-at="2017-07-24T10:18:39Z" finished-at="2017-07-24T10:18:40Z">
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:tests.calculatorAddTest@204f30ec]" name="afterMethod" is-config="true" duration-ms="728" started-at="2017-07-24T11:51:00Z" finished-at="2017-07-24T11:51:01Z">
           <params>
             <param index="0">
               <value>
@@ -222,7 +222,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:tests.calculatorAddTest@204f30ec]" name="beforeMethod" is-config="true" duration-ms="3183" started-at="2017-07-24T10:18:40Z" finished-at="2017-07-24T10:18:43Z">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:tests.calculatorAddTest@204f30ec]" name="beforeMethod" is-config="true" duration-ms="3602" started-at="2017-07-24T11:51:01Z" finished-at="2017-07-24T11:51:04Z">
           <params>
             <param index="0">
               <value>
@@ -233,7 +233,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="shouldAddTwoNumbers(java.lang.String, java.lang.String)[pri:0, instance:tests.calculatorAddTest@204f30ec]" name="shouldAddTwoNumbers" duration-ms="398" started-at="2017-07-24T10:18:43Z" data-provider="addData" finished-at="2017-07-24T10:18:43Z">
+        <test-method status="PASS" signature="shouldAddTwoNumbers(java.lang.String, java.lang.String)[pri:0, instance:tests.calculatorAddTest@204f30ec]" name="shouldAddTwoNumbers" duration-ms="400" started-at="2017-07-24T11:51:04Z" data-provider="addData" finished-at="2017-07-24T11:51:05Z">
           <params>
             <param index="0">
               <value>
@@ -249,7 +249,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- shouldAddTwoNumbers -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:tests.calculatorAddTest@204f30ec]" name="afterMethod" is-config="true" duration-ms="726" started-at="2017-07-24T10:18:43Z" finished-at="2017-07-24T10:18:44Z">
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:tests.calculatorAddTest@204f30ec]" name="afterMethod" is-config="true" duration-ms="735" started-at="2017-07-24T11:51:05Z" finished-at="2017-07-24T11:51:05Z">
           <params>
             <param index="0">
               <value>
@@ -265,7 +265,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:tests.calculatorAddTest@204f30ec]" name="beforeMethod" is-config="true" duration-ms="3177" started-at="2017-07-24T10:18:44Z" finished-at="2017-07-24T10:18:47Z">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:tests.calculatorAddTest@204f30ec]" name="beforeMethod" is-config="true" duration-ms="3595" started-at="2017-07-24T11:51:05Z" finished-at="2017-07-24T11:51:09Z">
           <params>
             <param index="0">
               <value>
@@ -276,7 +276,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="shouldAddTwoNumbers(java.lang.String, java.lang.String)[pri:0, instance:tests.calculatorAddTest@204f30ec]" name="shouldAddTwoNumbers" duration-ms="393" started-at="2017-07-24T10:18:47Z" data-provider="addData" finished-at="2017-07-24T10:18:48Z">
+        <test-method status="PASS" signature="shouldAddTwoNumbers(java.lang.String, java.lang.String)[pri:0, instance:tests.calculatorAddTest@204f30ec]" name="shouldAddTwoNumbers" duration-ms="400" started-at="2017-07-24T11:51:09Z" data-provider="addData" finished-at="2017-07-24T11:51:09Z">
           <params>
             <param index="0">
               <value>
@@ -292,7 +292,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- shouldAddTwoNumbers -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:tests.calculatorAddTest@204f30ec]" name="afterMethod" is-config="true" duration-ms="715" started-at="2017-07-24T10:18:48Z" finished-at="2017-07-24T10:18:48Z">
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:tests.calculatorAddTest@204f30ec]" name="afterMethod" is-config="true" duration-ms="719" started-at="2017-07-24T11:51:09Z" finished-at="2017-07-24T11:51:10Z">
           <params>
             <param index="0">
               <value>
@@ -308,7 +308,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:tests.calculatorAddTest@204f30ec]" name="beforeMethod" is-config="true" duration-ms="3175" started-at="2017-07-24T10:18:48Z" finished-at="2017-07-24T10:18:51Z">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:tests.calculatorAddTest@204f30ec]" name="beforeMethod" is-config="true" duration-ms="3690" started-at="2017-07-24T11:51:10Z" finished-at="2017-07-24T11:51:14Z">
           <params>
             <param index="0">
               <value>
@@ -319,7 +319,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="shouldAddTwoNumbers(java.lang.String, java.lang.String)[pri:0, instance:tests.calculatorAddTest@204f30ec]" name="shouldAddTwoNumbers" duration-ms="390" started-at="2017-07-24T10:18:51Z" data-provider="addData" finished-at="2017-07-24T10:18:52Z">
+        <test-method status="PASS" signature="shouldAddTwoNumbers(java.lang.String, java.lang.String)[pri:0, instance:tests.calculatorAddTest@204f30ec]" name="shouldAddTwoNumbers" duration-ms="406" started-at="2017-07-24T11:51:14Z" data-provider="addData" finished-at="2017-07-24T11:51:14Z">
           <params>
             <param index="0">
               <value>
@@ -335,7 +335,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- shouldAddTwoNumbers -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:tests.calculatorAddTest@204f30ec]" name="afterMethod" is-config="true" duration-ms="706" started-at="2017-07-24T10:18:52Z" finished-at="2017-07-24T10:18:53Z">
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:tests.calculatorAddTest@204f30ec]" name="afterMethod" is-config="true" duration-ms="719" started-at="2017-07-24T11:51:14Z" finished-at="2017-07-24T11:51:15Z">
           <params>
             <param index="0">
               <value>
@@ -351,7 +351,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:tests.calculatorAddTest@204f30ec]" name="beforeMethod" is-config="true" duration-ms="3181" started-at="2017-07-24T10:18:53Z" finished-at="2017-07-24T10:18:56Z">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:tests.calculatorAddTest@204f30ec]" name="beforeMethod" is-config="true" duration-ms="3679" started-at="2017-07-24T11:51:15Z" finished-at="2017-07-24T11:51:19Z">
           <params>
             <param index="0">
               <value>
@@ -362,7 +362,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="shouldAddTwoNumbers(java.lang.String, java.lang.String)[pri:0, instance:tests.calculatorAddTest@204f30ec]" name="shouldAddTwoNumbers" duration-ms="386" started-at="2017-07-24T10:18:56Z" data-provider="addData" finished-at="2017-07-24T10:18:56Z">
+        <test-method status="PASS" signature="shouldAddTwoNumbers(java.lang.String, java.lang.String)[pri:0, instance:tests.calculatorAddTest@204f30ec]" name="shouldAddTwoNumbers" duration-ms="396" started-at="2017-07-24T11:51:19Z" data-provider="addData" finished-at="2017-07-24T11:51:19Z">
           <params>
             <param index="0">
               <value>
@@ -378,7 +378,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- shouldAddTwoNumbers -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:tests.calculatorAddTest@204f30ec]" name="afterMethod" is-config="true" duration-ms="724" started-at="2017-07-24T10:18:56Z" finished-at="2017-07-24T10:18:57Z">
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:tests.calculatorAddTest@204f30ec]" name="afterMethod" is-config="true" duration-ms="719" started-at="2017-07-24T11:51:19Z" finished-at="2017-07-24T11:51:20Z">
           <params>
             <param index="0">
               <value>

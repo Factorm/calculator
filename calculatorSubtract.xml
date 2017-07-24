@@ -2,7 +2,7 @@
 <suite name="Calculator">
 	<test name="calculatorSubtract">
 		<classes>
-			<class name="tests.calculatorubtractTest"></class>
+			<class name="tests.calculatorSubtractTest"></class>
 		</classes>
 	</test>
 </suite>
