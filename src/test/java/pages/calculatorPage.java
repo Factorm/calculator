@@ -66,36 +66,36 @@ public class calculatorPage {
 	}
 
 	public void addition(String value1, String value2) {
-		firstField.sendKeys(value1);
-		secondField.sendKeys(value2);
+		enterFirstField(value1);
+		enterSecondField(value2);
 		selectMathematicalAction("ADD(+)");
 		clickButton();		
 	}
 
 	public void subtraction(String value1, String value2) {
-		firstField.sendKeys(value1);
-		secondField.sendKeys(value2);
+		enterFirstField(value1);
+		enterSecondField(value2);
 		selectMathematicalAction("SUBTRACT(-)");
 		clickButton();	
 	}
 
 	public void multiplication(String value1, String value2) {
-		firstField.sendKeys(value1);
-		secondField.sendKeys(value2);
+		enterFirstField(value1);
+		enterSecondField(value2);
 		selectMathematicalAction("MULTIPLY(*)");
 		clickButton();	
 	}
 
 	public void division(String value1, String value2) {
-		firstField.sendKeys(value1);
-		secondField.sendKeys(value2);
+		enterFirstField(value1);
+		enterSecondField(value2);
 		selectMathematicalAction("DIVIDE(/)");
 		clickButton();	
 	}
 
 	public void power(String value1, String value2) {
-		firstField.sendKeys(value1);
-		secondField.sendKeys(value2);
+		enterFirstField(value1);
+		enterSecondField(value2);
 		selectMathematicalAction("POWER(^)");
 		clickButton();	
 	}

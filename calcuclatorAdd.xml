@@ -1,6 +1,6 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Calculator">
-	<test name="CalculatorAdd">
+	<test name="calculatorAdd">
 		<classes>
 			<class name="tests.calculatorAddTest"></class>
 		</classes>

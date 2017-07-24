@@ -2,23 +2,23 @@
 <testng-results skipped="0" failed="0" ignored="0" total="9" passed="9">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="44124" started-at="2017-07-24T09:50:36Z" finished-at="2017-07-24T09:51:20Z">
+  <suite name="Default suite" duration-ms="41055" started-at="2017-07-24T11:13:07Z" finished-at="2017-07-24T11:13:48Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="44124" started-at="2017-07-24T09:50:36Z" finished-at="2017-07-24T09:51:20Z">
-      <class name="tests.calculatorAddTest">
-        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:tests.calculatorAddTest@204f30ec]" name="beforeMethod" is-config="true" duration-ms="4464" started-at="2017-07-24T11:50:36Z" finished-at="2017-07-24T11:50:41Z">
+    <test name="Default test" duration-ms="41055" started-at="2017-07-24T11:13:07Z" finished-at="2017-07-24T11:13:48Z">
+      <class name="tests.calculatorDivideTest">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:tests.calculatorDivideTest@204f30ec]" name="beforeMethod" is-config="true" duration-ms="3822" started-at="2017-07-24T13:13:07Z" finished-at="2017-07-24T13:13:11Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void tests.calculatorAddTest.shouldAddTwoNumbers(java.lang.String,java.lang.String) throws java.lang.Exception]]>
+                <![CDATA[public void tests.calculatorDivideTest.shouldDivideTwoNumbers(java.lang.String,java.lang.String) throws java.lang.Exception]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="shouldAddTwoNumbers(java.lang.String, java.lang.String)[pri:0, instance:tests.calculatorAddTest@204f30ec]" name="shouldAddTwoNumbers" duration-ms="436" started-at="2017-07-24T11:50:41Z" data-provider="addData" finished-at="2017-07-24T11:50:41Z">
+        <test-method status="PASS" signature="shouldDivideTwoNumbers(java.lang.String, java.lang.String)[pri:0, instance:tests.calculatorDivideTest@204f30ec]" name="shouldDivideTwoNumbers" duration-ms="514" started-at="2017-07-24T13:13:11Z" data-provider="divData" finished-at="2017-07-24T13:13:12Z">
           <params>
             <param index="0">
               <value>
@@ -33,35 +33,35 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- shouldAddTwoNumbers -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:tests.calculatorAddTest@204f30ec]" name="afterMethod" is-config="true" duration-ms="1017" started-at="2017-07-24T11:50:41Z" finished-at="2017-07-24T11:50:42Z">
+        </test-method> <!-- shouldDivideTwoNumbers -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:tests.calculatorDivideTest@204f30ec]" name="afterMethod" is-config="true" duration-ms="991" started-at="2017-07-24T13:13:12Z" finished-at="2017-07-24T13:13:13Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=shouldAddTwoNumbers status=SUCCESS method=calculatorAddTest.shouldAddTwoNumbers(java.lang.String, java.lang.String)[pri:0, instance:tests.calculatorAddTest@204f30ec] output={null}]]]>
+                <![CDATA[[TestResult name=shouldDivideTwoNumbers status=SUCCESS method=calculatorDivideTest.shouldDivideTwoNumbers(java.lang.String, java.lang.String)[pri:0, instance:tests.calculatorDivideTest@204f30ec] output={null}]]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[public void tests.calculatorAddTest.shouldAddTwoNumbers(java.lang.String,java.lang.String) throws java.lang.Exception]]>
+                <![CDATA[public void tests.calculatorDivideTest.shouldDivideTwoNumbers(java.lang.String,java.lang.String) throws java.lang.Exception]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:tests.calculatorAddTest@204f30ec]" name="beforeMethod" is-config="true" duration-ms="3381" started-at="2017-07-24T11:50:42Z" finished-at="2017-07-24T11:50:45Z">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:tests.calculatorDivideTest@204f30ec]" name="beforeMethod" is-config="true" duration-ms="3301" started-at="2017-07-24T13:13:13Z" finished-at="2017-07-24T13:13:16Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void tests.calculatorAddTest.shouldAddTwoNumbers(java.lang.String,java.lang.String) throws java.lang.Exception]]>
+                <![CDATA[public void tests.calculatorDivideTest.shouldDivideTwoNumbers(java.lang.String,java.lang.String) throws java.lang.Exception]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="shouldAddTwoNumbers(java.lang.String, java.lang.String)[pri:0, instance:tests.calculatorAddTest@204f30ec]" name="shouldAddTwoNumbers" duration-ms="399" started-at="2017-07-24T11:50:45Z" data-provider="addData" finished-at="2017-07-24T11:50:46Z">
+        <test-method status="PASS" signature="shouldDivideTwoNumbers(java.lang.String, java.lang.String)[pri:0, instance:tests.calculatorDivideTest@204f30ec]" name="shouldDivideTwoNumbers" duration-ms="482" started-at="2017-07-24T13:13:16Z" data-provider="divData" finished-at="2017-07-24T13:13:17Z">
           <params>
             <param index="0">
               <value>
@@ -76,35 +76,35 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- shouldAddTwoNumbers -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:tests.calculatorAddTest@204f30ec]" name="afterMethod" is-config="true" duration-ms="771" started-at="2017-07-24T11:50:46Z" finished-at="2017-07-24T11:50:47Z">
+        </test-method> <!-- shouldDivideTwoNumbers -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:tests.calculatorDivideTest@204f30ec]" name="afterMethod" is-config="true" duration-ms="721" started-at="2017-07-24T13:13:17Z" finished-at="2017-07-24T13:13:17Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=shouldAddTwoNumbers status=SUCCESS method=calculatorAddTest.shouldAddTwoNumbers(java.lang.String, java.lang.String)[pri:0, instance:tests.calculatorAddTest@204f30ec] output={null}]]]>
+                <![CDATA[[TestResult name=shouldDivideTwoNumbers status=SUCCESS method=calculatorDivideTest.shouldDivideTwoNumbers(java.lang.String, java.lang.String)[pri:0, instance:tests.calculatorDivideTest@204f30ec] output={null}]]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[public void tests.calculatorAddTest.shouldAddTwoNumbers(java.lang.String,java.lang.String) throws java.lang.Exception]]>
+                <![CDATA[public void tests.calculatorDivideTest.shouldDivideTwoNumbers(java.lang.String,java.lang.String) throws java.lang.Exception]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:tests.calculatorAddTest@204f30ec]" name="beforeMethod" is-config="true" duration-ms="3540" started-at="2017-07-24T11:50:47Z" finished-at="2017-07-24T11:50:50Z">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:tests.calculatorDivideTest@204f30ec]" name="beforeMethod" is-config="true" duration-ms="3189" started-at="2017-07-24T13:13:17Z" finished-at="2017-07-24T13:13:20Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void tests.calculatorAddTest.shouldAddTwoNumbers(java.lang.String,java.lang.String) throws java.lang.Exception]]>
+                <![CDATA[public void tests.calculatorDivideTest.shouldDivideTwoNumbers(java.lang.String,java.lang.String) throws java.lang.Exception]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="shouldAddTwoNumbers(java.lang.String, java.lang.String)[pri:0, instance:tests.calculatorAddTest@204f30ec]" name="shouldAddTwoNumbers" duration-ms="408" started-at="2017-07-24T11:50:50Z" data-provider="addData" finished-at="2017-07-24T11:50:51Z">
+        <test-method status="PASS" signature="shouldDivideTwoNumbers(java.lang.String, java.lang.String)[pri:0, instance:tests.calculatorDivideTest@204f30ec]" name="shouldDivideTwoNumbers" duration-ms="483" started-at="2017-07-24T13:13:20Z" data-provider="divData" finished-at="2017-07-24T13:13:21Z">
           <params>
             <param index="0">
               <value>
@@ -119,35 +119,35 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- shouldAddTwoNumbers -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:tests.calculatorAddTest@204f30ec]" name="afterMethod" is-config="true" duration-ms="740" started-at="2017-07-24T11:50:51Z" finished-at="2017-07-24T11:50:51Z">
+        </test-method> <!-- shouldDivideTwoNumbers -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:tests.calculatorDivideTest@204f30ec]" name="afterMethod" is-config="true" duration-ms="718" started-at="2017-07-24T13:13:21Z" finished-at="2017-07-24T13:13:22Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=shouldAddTwoNumbers status=SUCCESS method=calculatorAddTest.shouldAddTwoNumbers(java.lang.String, java.lang.String)[pri:0, instance:tests.calculatorAddTest@204f30ec] output={null}]]]>
+                <![CDATA[[TestResult name=shouldDivideTwoNumbers status=SUCCESS method=calculatorDivideTest.shouldDivideTwoNumbers(java.lang.String, java.lang.String)[pri:0, instance:tests.calculatorDivideTest@204f30ec] output={null}]]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[public void tests.calculatorAddTest.shouldAddTwoNumbers(java.lang.String,java.lang.String) throws java.lang.Exception]]>
+                <![CDATA[public void tests.calculatorDivideTest.shouldDivideTwoNumbers(java.lang.String,java.lang.String) throws java.lang.Exception]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:tests.calculatorAddTest@204f30ec]" name="beforeMethod" is-config="true" duration-ms="3575" started-at="2017-07-24T11:50:51Z" finished-at="2017-07-24T11:50:55Z">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:tests.calculatorDivideTest@204f30ec]" name="beforeMethod" is-config="true" duration-ms="3191" started-at="2017-07-24T13:13:22Z" finished-at="2017-07-24T13:13:25Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void tests.calculatorAddTest.shouldAddTwoNumbers(java.lang.String,java.lang.String) throws java.lang.Exception]]>
+                <![CDATA[public void tests.calculatorDivideTest.shouldDivideTwoNumbers(java.lang.String,java.lang.String) throws java.lang.Exception]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="shouldAddTwoNumbers(java.lang.String, java.lang.String)[pri:0, instance:tests.calculatorAddTest@204f30ec]" name="shouldAddTwoNumbers" duration-ms="401" started-at="2017-07-24T11:50:55Z" data-provider="addData" finished-at="2017-07-24T11:50:55Z">
+        <test-method status="PASS" signature="shouldDivideTwoNumbers(java.lang.String, java.lang.String)[pri:0, instance:tests.calculatorDivideTest@204f30ec]" name="shouldDivideTwoNumbers" duration-ms="476" started-at="2017-07-24T13:13:25Z" data-provider="divData" finished-at="2017-07-24T13:13:25Z">
           <params>
             <param index="0">
               <value>
@@ -162,35 +162,35 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- shouldAddTwoNumbers -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:tests.calculatorAddTest@204f30ec]" name="afterMethod" is-config="true" duration-ms="724" started-at="2017-07-24T11:50:55Z" finished-at="2017-07-24T11:50:56Z">
+        </test-method> <!-- shouldDivideTwoNumbers -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:tests.calculatorDivideTest@204f30ec]" name="afterMethod" is-config="true" duration-ms="728" started-at="2017-07-24T13:13:25Z" finished-at="2017-07-24T13:13:26Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=shouldAddTwoNumbers status=SUCCESS method=calculatorAddTest.shouldAddTwoNumbers(java.lang.String, java.lang.String)[pri:0, instance:tests.calculatorAddTest@204f30ec] output={null}]]]>
+                <![CDATA[[TestResult name=shouldDivideTwoNumbers status=SUCCESS method=calculatorDivideTest.shouldDivideTwoNumbers(java.lang.String, java.lang.String)[pri:0, instance:tests.calculatorDivideTest@204f30ec] output={null}]]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[public void tests.calculatorAddTest.shouldAddTwoNumbers(java.lang.String,java.lang.String) throws java.lang.Exception]]>
+                <![CDATA[public void tests.calculatorDivideTest.shouldDivideTwoNumbers(java.lang.String,java.lang.String) throws java.lang.Exception]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:tests.calculatorAddTest@204f30ec]" name="beforeMethod" is-config="true" duration-ms="3589" started-at="2017-07-24T11:50:56Z" finished-at="2017-07-24T11:51:00Z">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:tests.calculatorDivideTest@204f30ec]" name="beforeMethod" is-config="true" duration-ms="3213" started-at="2017-07-24T13:13:26Z" finished-at="2017-07-24T13:13:29Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void tests.calculatorAddTest.shouldAddTwoNumbers(java.lang.String,java.lang.String) throws java.lang.Exception]]>
+                <![CDATA[public void tests.calculatorDivideTest.shouldDivideTwoNumbers(java.lang.String,java.lang.String) throws java.lang.Exception]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="shouldAddTwoNumbers(java.lang.String, java.lang.String)[pri:0, instance:tests.calculatorAddTest@204f30ec]" name="shouldAddTwoNumbers" duration-ms="400" started-at="2017-07-24T11:51:00Z" data-provider="addData" finished-at="2017-07-24T11:51:00Z">
+        <test-method status="PASS" signature="shouldDivideTwoNumbers(java.lang.String, java.lang.String)[pri:0, instance:tests.calculatorDivideTest@204f30ec]" name="shouldDivideTwoNumbers" duration-ms="479" started-at="2017-07-24T13:13:29Z" data-provider="divData" finished-at="2017-07-24T13:13:30Z">
           <params>
             <param index="0">
               <value>
@@ -205,35 +205,35 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- shouldAddTwoNumbers -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:tests.calculatorAddTest@204f30ec]" name="afterMethod" is-config="true" duration-ms="728" started-at="2017-07-24T11:51:00Z" finished-at="2017-07-24T11:51:01Z">
+        </test-method> <!-- shouldDivideTwoNumbers -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:tests.calculatorDivideTest@204f30ec]" name="afterMethod" is-config="true" duration-ms="714" started-at="2017-07-24T13:13:30Z" finished-at="2017-07-24T13:13:30Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=shouldAddTwoNumbers status=SUCCESS method=calculatorAddTest.shouldAddTwoNumbers(java.lang.String, java.lang.String)[pri:0, instance:tests.calculatorAddTest@204f30ec] output={null}]]]>
+                <![CDATA[[TestResult name=shouldDivideTwoNumbers status=SUCCESS method=calculatorDivideTest.shouldDivideTwoNumbers(java.lang.String, java.lang.String)[pri:0, instance:tests.calculatorDivideTest@204f30ec] output={null}]]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[public void tests.calculatorAddTest.shouldAddTwoNumbers(java.lang.String,java.lang.String) throws java.lang.Exception]]>
+                <![CDATA[public void tests.calculatorDivideTest.shouldDivideTwoNumbers(java.lang.String,java.lang.String) throws java.lang.Exception]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:tests.calculatorAddTest@204f30ec]" name="beforeMethod" is-config="true" duration-ms="3602" started-at="2017-07-24T11:51:01Z" finished-at="2017-07-24T11:51:04Z">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:tests.calculatorDivideTest@204f30ec]" name="beforeMethod" is-config="true" duration-ms="3200" started-at="2017-07-24T13:13:30Z" finished-at="2017-07-24T13:13:34Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void tests.calculatorAddTest.shouldAddTwoNumbers(java.lang.String,java.lang.String) throws java.lang.Exception]]>
+                <![CDATA[public void tests.calculatorDivideTest.shouldDivideTwoNumbers(java.lang.String,java.lang.String) throws java.lang.Exception]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="shouldAddTwoNumbers(java.lang.String, java.lang.String)[pri:0, instance:tests.calculatorAddTest@204f30ec]" name="shouldAddTwoNumbers" duration-ms="400" started-at="2017-07-24T11:51:04Z" data-provider="addData" finished-at="2017-07-24T11:51:05Z">
+        <test-method status="PASS" signature="shouldDivideTwoNumbers(java.lang.String, java.lang.String)[pri:0, instance:tests.calculatorDivideTest@204f30ec]" name="shouldDivideTwoNumbers" duration-ms="483" started-at="2017-07-24T13:13:34Z" data-provider="divData" finished-at="2017-07-24T13:13:34Z">
           <params>
             <param index="0">
               <value>
@@ -248,35 +248,35 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- shouldAddTwoNumbers -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:tests.calculatorAddTest@204f30ec]" name="afterMethod" is-config="true" duration-ms="735" started-at="2017-07-24T11:51:05Z" finished-at="2017-07-24T11:51:05Z">
+        </test-method> <!-- shouldDivideTwoNumbers -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:tests.calculatorDivideTest@204f30ec]" name="afterMethod" is-config="true" duration-ms="719" started-at="2017-07-24T13:13:34Z" finished-at="2017-07-24T13:13:35Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=shouldAddTwoNumbers status=SUCCESS method=calculatorAddTest.shouldAddTwoNumbers(java.lang.String, java.lang.String)[pri:0, instance:tests.calculatorAddTest@204f30ec] output={null}]]]>
+                <![CDATA[[TestResult name=shouldDivideTwoNumbers status=SUCCESS method=calculatorDivideTest.shouldDivideTwoNumbers(java.lang.String, java.lang.String)[pri:0, instance:tests.calculatorDivideTest@204f30ec] output={null}]]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[public void tests.calculatorAddTest.shouldAddTwoNumbers(java.lang.String,java.lang.String) throws java.lang.Exception]]>
+                <![CDATA[public void tests.calculatorDivideTest.shouldDivideTwoNumbers(java.lang.String,java.lang.String) throws java.lang.Exception]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:tests.calculatorAddTest@204f30ec]" name="beforeMethod" is-config="true" duration-ms="3595" started-at="2017-07-24T11:51:05Z" finished-at="2017-07-24T11:51:09Z">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:tests.calculatorDivideTest@204f30ec]" name="beforeMethod" is-config="true" duration-ms="3191" started-at="2017-07-24T13:13:35Z" finished-at="2017-07-24T13:13:38Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void tests.calculatorAddTest.shouldAddTwoNumbers(java.lang.String,java.lang.String) throws java.lang.Exception]]>
+                <![CDATA[public void tests.calculatorDivideTest.shouldDivideTwoNumbers(java.lang.String,java.lang.String) throws java.lang.Exception]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="shouldAddTwoNumbers(java.lang.String, java.lang.String)[pri:0, instance:tests.calculatorAddTest@204f30ec]" name="shouldAddTwoNumbers" duration-ms="400" started-at="2017-07-24T11:51:09Z" data-provider="addData" finished-at="2017-07-24T11:51:09Z">
+        <test-method status="PASS" signature="shouldDivideTwoNumbers(java.lang.String, java.lang.String)[pri:0, instance:tests.calculatorDivideTest@204f30ec]" name="shouldDivideTwoNumbers" duration-ms="480" started-at="2017-07-24T13:13:38Z" data-provider="divData" finished-at="2017-07-24T13:13:39Z">
           <params>
             <param index="0">
               <value>
@@ -291,35 +291,35 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- shouldAddTwoNumbers -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:tests.calculatorAddTest@204f30ec]" name="afterMethod" is-config="true" duration-ms="719" started-at="2017-07-24T11:51:09Z" finished-at="2017-07-24T11:51:10Z">
+        </test-method> <!-- shouldDivideTwoNumbers -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:tests.calculatorDivideTest@204f30ec]" name="afterMethod" is-config="true" duration-ms="712" started-at="2017-07-24T13:13:39Z" finished-at="2017-07-24T13:13:39Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=shouldAddTwoNumbers status=SUCCESS method=calculatorAddTest.shouldAddTwoNumbers(java.lang.String, java.lang.String)[pri:0, instance:tests.calculatorAddTest@204f30ec] output={null}]]]>
+                <![CDATA[[TestResult name=shouldDivideTwoNumbers status=SUCCESS method=calculatorDivideTest.shouldDivideTwoNumbers(java.lang.String, java.lang.String)[pri:0, instance:tests.calculatorDivideTest@204f30ec] output={null}]]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[public void tests.calculatorAddTest.shouldAddTwoNumbers(java.lang.String,java.lang.String) throws java.lang.Exception]]>
+                <![CDATA[public void tests.calculatorDivideTest.shouldDivideTwoNumbers(java.lang.String,java.lang.String) throws java.lang.Exception]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:tests.calculatorAddTest@204f30ec]" name="beforeMethod" is-config="true" duration-ms="3690" started-at="2017-07-24T11:51:10Z" finished-at="2017-07-24T11:51:14Z">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:tests.calculatorDivideTest@204f30ec]" name="beforeMethod" is-config="true" duration-ms="3197" started-at="2017-07-24T13:13:39Z" finished-at="2017-07-24T13:13:42Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void tests.calculatorAddTest.shouldAddTwoNumbers(java.lang.String,java.lang.String) throws java.lang.Exception]]>
+                <![CDATA[public void tests.calculatorDivideTest.shouldDivideTwoNumbers(java.lang.String,java.lang.String) throws java.lang.Exception]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="shouldAddTwoNumbers(java.lang.String, java.lang.String)[pri:0, instance:tests.calculatorAddTest@204f30ec]" name="shouldAddTwoNumbers" duration-ms="406" started-at="2017-07-24T11:51:14Z" data-provider="addData" finished-at="2017-07-24T11:51:14Z">
+        <test-method status="PASS" signature="shouldDivideTwoNumbers(java.lang.String, java.lang.String)[pri:0, instance:tests.calculatorDivideTest@204f30ec]" name="shouldDivideTwoNumbers" duration-ms="472" started-at="2017-07-24T13:13:42Z" data-provider="divData" finished-at="2017-07-24T13:13:43Z">
           <params>
             <param index="0">
               <value>
@@ -334,35 +334,35 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- shouldAddTwoNumbers -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:tests.calculatorAddTest@204f30ec]" name="afterMethod" is-config="true" duration-ms="719" started-at="2017-07-24T11:51:14Z" finished-at="2017-07-24T11:51:15Z">
+        </test-method> <!-- shouldDivideTwoNumbers -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:tests.calculatorDivideTest@204f30ec]" name="afterMethod" is-config="true" duration-ms="711" started-at="2017-07-24T13:13:43Z" finished-at="2017-07-24T13:13:44Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=shouldAddTwoNumbers status=SUCCESS method=calculatorAddTest.shouldAddTwoNumbers(java.lang.String, java.lang.String)[pri:0, instance:tests.calculatorAddTest@204f30ec] output={null}]]]>
+                <![CDATA[[TestResult name=shouldDivideTwoNumbers status=SUCCESS method=calculatorDivideTest.shouldDivideTwoNumbers(java.lang.String, java.lang.String)[pri:0, instance:tests.calculatorDivideTest@204f30ec] output={null}]]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[public void tests.calculatorAddTest.shouldAddTwoNumbers(java.lang.String,java.lang.String) throws java.lang.Exception]]>
+                <![CDATA[public void tests.calculatorDivideTest.shouldDivideTwoNumbers(java.lang.String,java.lang.String) throws java.lang.Exception]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:tests.calculatorAddTest@204f30ec]" name="beforeMethod" is-config="true" duration-ms="3679" started-at="2017-07-24T11:51:15Z" finished-at="2017-07-24T11:51:19Z">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:tests.calculatorDivideTest@204f30ec]" name="beforeMethod" is-config="true" duration-ms="3188" started-at="2017-07-24T13:13:44Z" finished-at="2017-07-24T13:13:47Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void tests.calculatorAddTest.shouldAddTwoNumbers(java.lang.String,java.lang.String) throws java.lang.Exception]]>
+                <![CDATA[public void tests.calculatorDivideTest.shouldDivideTwoNumbers(java.lang.String,java.lang.String) throws java.lang.Exception]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="shouldAddTwoNumbers(java.lang.String, java.lang.String)[pri:0, instance:tests.calculatorAddTest@204f30ec]" name="shouldAddTwoNumbers" duration-ms="396" started-at="2017-07-24T11:51:19Z" data-provider="addData" finished-at="2017-07-24T11:51:19Z">
+        <test-method status="PASS" signature="shouldDivideTwoNumbers(java.lang.String, java.lang.String)[pri:0, instance:tests.calculatorDivideTest@204f30ec]" name="shouldDivideTwoNumbers" duration-ms="479" started-at="2017-07-24T13:13:47Z" data-provider="divData" finished-at="2017-07-24T13:13:47Z">
           <params>
             <param index="0">
               <value>
@@ -377,24 +377,24 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- shouldAddTwoNumbers -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:tests.calculatorAddTest@204f30ec]" name="afterMethod" is-config="true" duration-ms="719" started-at="2017-07-24T11:51:19Z" finished-at="2017-07-24T11:51:20Z">
+        </test-method> <!-- shouldDivideTwoNumbers -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:tests.calculatorDivideTest@204f30ec]" name="afterMethod" is-config="true" duration-ms="709" started-at="2017-07-24T13:13:47Z" finished-at="2017-07-24T13:13:48Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=shouldAddTwoNumbers status=SUCCESS method=calculatorAddTest.shouldAddTwoNumbers(java.lang.String, java.lang.String)[pri:0, instance:tests.calculatorAddTest@204f30ec] output={null}]]]>
+                <![CDATA[[TestResult name=shouldDivideTwoNumbers status=SUCCESS method=calculatorDivideTest.shouldDivideTwoNumbers(java.lang.String, java.lang.String)[pri:0, instance:tests.calculatorDivideTest@204f30ec] output={null}]]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[public void tests.calculatorAddTest.shouldAddTwoNumbers(java.lang.String,java.lang.String) throws java.lang.Exception]]>
+                <![CDATA[public void tests.calculatorDivideTest.shouldDivideTwoNumbers(java.lang.String,java.lang.String) throws java.lang.Exception]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-      </class> <!-- tests.calculatorAddTest -->
+      </class> <!-- tests.calculatorDivideTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
