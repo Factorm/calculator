@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="tests.calculatorDivideTest">
+      <class name="tests.calculatorAddTest">
         <methods>
+          <include name="shouldntAddTwoWords" invocation-numbers="0 1 2 3"/>
           <include name="afterMethod"/>
           <include name="beforeMethod"/>
-          <include name="shouldDivideTwoNumbers" invocation-numbers="4 5 6 8"/>
         </methods>
-      </class> <!-- tests.calculatorDivideTest -->
+      </class> <!-- tests.calculatorAddTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -40,12 +40,12 @@ public class calculatorPage {
 
 	public void enterFirstField(String value) {
 		firstField.sendKeys(value);
-		test.log(LogStatus.INFO, "To (firstField :: " + firstField.getLocation() + ") add: " + value);
+		test.log(LogStatus.INFO, "To (firstField) add: " + value);
 	}
 
 	public void enterSecondField(String value) {
 		secondField.sendKeys(value);
-		test.log(LogStatus.INFO, "To (secondFieldd :: " + secondField.getLocation() + ") add: " + value);
+		test.log(LogStatus.INFO, "To (secondField) add: " + value);
 	}
 
 	public void selectMathematicalAction(String select) {
