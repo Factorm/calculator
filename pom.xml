@@ -53,23 +53,6 @@
 	</dependencies>
 	<profiles>
 		<profile>
-			<id>CalculatorAddTestSuite</id>
-			<build>
-				<plugins>
-					<plugin>
-						<groupId>org.apache.maven.plugins</groupId>
-						<artifactId>maven-surefire-plugin</artifactId>
-						<version>2.20</version>
-						<configuration>
-							<suiteXmlFiles>
-								<suiteXmlFile>E:\Development\Jenkins\workspace\CalculatorAddTestSuite\calculatorAdd.xml</suiteXmlFile>
-							</suiteXmlFiles>
-						</configuration>
-					</plugin>
-				</plugins>
-			</build>
-		</profile>
-		<profile>
 			<id>CalculatorSubtractTestSuite</id>
 			<build>
 				<plugins>
@@ -80,6 +63,23 @@
 						<configuration>
 							<suiteXmlFiles>
 								<suiteXmlFile>calculatorSubtract.xml</suiteXmlFile>
+							</suiteXmlFiles>
+						</configuration>
+					</plugin>
+				</plugins>
+			</build>
+		</profile>
+		<profile>
+			<id>CalculatorAddTestSuite</id>
+			<build>
+				<plugins>
+					<plugin>
+						<groupId>org.apache.maven.plugins</groupId>
+						<artifactId>maven-surefire-plugin</artifactId>
+						<version>2.20</version>
+						<configuration>
+							<suiteXmlFiles>
+								<suiteXmlFile>calculatorTestAdd.xml</suiteXmlFile>
 							</suiteXmlFiles>
 						</configuration>
 					</plugin>

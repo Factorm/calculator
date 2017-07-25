@@ -42,9 +42,9 @@ public class calculatorMultiplyTest {
 	@AfterMethod
 	public void afterMethod(ITestResult testResult, Method method) throws IOException {
 		if (testResult.getStatus() == ITestResult.FAILURE) {
-			String path = Screenshots.takeScreenshot(driver, testResult.getName());
-			String imagePath = test.addScreenCapture(path);
-			test.log(LogStatus.FAIL, testResult.getTestName() + " FAILED", imagePath);
+			String sPath = Screenshots.takeScreenshot(driver, testResult.getName());
+			String sImagePath = test.addScreenCapture(sPath);
+			test.log(LogStatus.FAIL, testResult.getTestName() + " FAILED", sImagePath);
 		} else {
 			test.log(LogStatus.PASS, this.getClass().getSimpleName() + " :: " + method.getName() + " PASSED");
 		}

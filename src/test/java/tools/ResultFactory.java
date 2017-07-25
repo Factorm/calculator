@@ -7,66 +7,69 @@ import com.relevantcodes.extentreports.LogStatus;
 
 public class ResultFactory {
 
-	public static ExtentTest test;
+	private static ExtentTest test = null;
+	private double pageResult = 0.0; 
+	private double value1 = 0.0;
+	private double value2 = 0.0;
 
-	public ResultFactory(ExtentTest test) {
-		this.test = test;
+	public ResultFactory(ExtentTest oTest) {
+		this.test = oTest;
 	}
 
-	public boolean checkTheResult(String value1, String value2, String mathMethod, String pageResult) {
+	public boolean checkTheResult(String sValue1, String sValue2, String sMathMethod, String sPageResult) {
+		
+		this.value1 = Integer.parseInt(sValue1);
+		this.value2 = Integer.parseInt(sValue2);
+		
 
-		double localValue1 = Integer.parseInt(value1);
-		double localValue2 = Integer.parseInt(value2);
-		double localPageResult = 0;
+		if (sPageResult.equals("Infinity") || sPageResult.equals("NaN")) {
 
-		if (pageResult.equals("Infinity") || pageResult.equals("NaN")) {
-
-			test.log(LogStatus.INFO, "pageResult is: " + pageResult + " it's good");
+			test.log(LogStatus.INFO, "pageResult is: " + sPageResult + " it's good");
 			return true;
 
 		} else {
-			localPageResult = Double.parseDouble(pageResult);
+			pageResult = Double.parseDouble(sPageResult);
 		}
 
-		if (mathMethod.equals("ADD(+)")) {
+		if (sMathMethod.equals("ADD(+)")) {
 
-			double result = round((localValue1 + localValue2));
+			double result = round((value1 + value2));
 
-			test.log(LogStatus.INFO, "pageResult is: " + localPageResult + " vs " + result + " is checkTheResult");
+			test.log(LogStatus.INFO, "pageResult is: " + sPageResult + " vs " + result + " is checkTheResult");
 
-			return (localPageResult == result);
+			return (pageResult == result);
 
-		} else if (mathMethod.equals("SUBTRACT(-)")) {
+		} else if (sMathMethod.equals("SUBTRACT(-)")) {
 
-			double result = round((localValue1 - localValue2));
+			double result = round((value1 - value2));
 
-			test.log(LogStatus.INFO, "pageResult is: " + localPageResult + " vs " + result + " is checkTheResult");
+			test.log(LogStatus.INFO, "pageResult is: " + sPageResult + " vs " + result + " is checkTheResult");
 
-			return (localPageResult == result);
+			return (pageResult == result);
 
-		} else if (mathMethod.equals("MULTIPLY(*)")) {
+		} else if (sMathMethod.equals("MULTIPLY(*)")) {
 
-			double result = round((localValue1 * localValue2));
+			double result = round((value1 * value2));
 
-			test.log(LogStatus.INFO, "pageResult is: " + localPageResult + " vs " + result + " is checkTheResult");
+			test.log(LogStatus.INFO, "pageResult is: " + sPageResult + " vs " + result + " is checkTheResult");
 
-			return (localPageResult == result);
+			return (pageResult == result);
 
-		} else if (mathMethod.equals("DIVIDE(/)")) {
+		} else if (sMathMethod.equals("DIVIDE(/)")) {
 
-			double result = round((localValue1 / localValue2));
+			double result = round((value1 / value2));
 
-			test.log(LogStatus.INFO, "pageResult is: " + localPageResult + " vs " + result + " is checkTheResult");
+			test.log(LogStatus.INFO, "pageResult is: " + sPageResult + " vs " + result + " is checkTheResult");
 
-			return (localPageResult == result);
+			return (pageResult == result);
 
-		} else if (mathMethod.equals("POWER(^)")) {
+		} else if (sMathMethod.equals("POWER(^)")) {
 
-			double result = round((pow(localValue1, localValue2)));
+			double result = round((pow(value1, value2)));
 
-			test.log(LogStatus.INFO, "pageResult is: " + localPageResult + " vs " + result + " is checkTheResult");
+			test.log(LogStatus.INFO, "pageResult is: " + sPageResult + " vs " + result + " is checkTheResult");
 
-			return (localPageResult == result);
+			return (pageResult == result);
 
 		}
 
@@ -74,26 +77,26 @@ public class ResultFactory {
 		return false;
 	}
 
-	public boolean checkTheResultWord(String pageResult) {
+	public boolean checkTheResultWord(String sPageResult) {
 
-			if (pageResult.equals("NaN")) {
+		if (sPageResult.equals("NaN")) {
 
-				test.log(LogStatus.INFO, "pageResult is: " + pageResult + " it's good");
-				return true;
+			test.log(LogStatus.INFO, "pageResult is: " + sPageResult + " it's good");
+			return true;
 
-			} else {
-				
-				test.log(LogStatus.WARNING, "pageResult is: " + pageResult + " it's bad!!!");
-				return false;
-			}
+		} else {
+
+			test.log(LogStatus.WARNING, "pageResult is: " + sPageResult + " it's bad!!!");
+			return false;
+		}
 	}
 
-	static public double round(double d) {
-		java.text.NumberFormat nf = java.text.NumberFormat.getInstance();
+	static public double round(double dValue) {
+		java.text.NumberFormat onf = java.text.NumberFormat.getInstance();
 		int ic = 18;
-		nf.setMaximumFractionDigits(ic);
-		nf.setMinimumFractionDigits(ic);
-		return Double.parseDouble((nf.format(d)).replaceAll(",", ".").replaceAll(" ", ""));
+		onf.setMaximumFractionDigits(ic);
+		onf.setMinimumFractionDigits(ic);
+		return Double.parseDouble((onf.format(dValue)).replaceAll(",", ".").replaceAll(" ", ""));
 	}
 
 }

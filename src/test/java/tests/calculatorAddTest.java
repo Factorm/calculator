@@ -24,11 +24,11 @@ import tools.Screenshots;
 
 public class calculatorAddTest {
 	
-	public WebDriver driver;
-	public ExtentTest test;
-	public ExtentReports report;
-	private calculatorPage cp;
-	private ResultFactory rf;
+	private WebDriver driver = null;
+	private ExtentTest test = null;
+	private ExtentReports report = null;
+	private calculatorPage calculatorPage = null;
+	private ResultFactory resultFactory = null;
 
 	@BeforeMethod
 	public void beforeMethod(Method method) throws Exception {
@@ -56,42 +56,42 @@ public class calculatorAddTest {
 	
 	@DataProvider(name = "numberData")
 	public Object[][] dataProvider() throws Exception {
-		String File_Path = System.getProperty("user.dir") + "//data//";
-		String File_Name = "data.xlsx";
+		String file_Path = System.getProperty("user.dir") + "//data//";
+		String file_Name = "data.xlsx";
 		
-		Object[][] testData = ExcelFactory.getTableArray(File_Path + File_Name, "Arkusz1");
-		return testData;
+		Object[][] oTestData = ExcelFactory.getTableArray(file_Path + file_Name, "Arkusz1");
+		return oTestData;
 	}
 	
 	@DataProvider(name = "wordData")
 	public Object[][] dataProvider2() throws Exception {
-		String File_Path = System.getProperty("user.dir") + "//data//";
-		String File_Name = "data.xlsx";
+		String file_Path = System.getProperty("user.dir") + "//data//";
+		String file_Name = "data.xlsx";
 		
-		Object[][] testData = ExcelFactory.getTableArray(File_Path + File_Name, "Arkusz2");
-		return testData;
+		Object[][] oTestData = ExcelFactory.getTableArray(file_Path + file_Name, "Arkusz2");
+		return oTestData;
 	}
 
 	@Test(dataProvider="numberData")
 	public void shouldAddTwoNumbers(String value1, String value2)  throws Exception {
 		
-		cp = new calculatorPage(driver, test);
+		calculatorPage = new calculatorPage(driver, test);
 		
-		cp.addition(value1, value2);
+		calculatorPage.addition(value1, value2);
 		
-		rf = new ResultFactory(test);
-		Assert.assertTrue(rf.checkTheResult(value1, value2, "ADD(+)", cp.result()));
+		resultFactory = new ResultFactory(test);
+		Assert.assertTrue(resultFactory.checkTheResult(value1, value2, "ADD(+)", calculatorPage.result()));
 	}
 	
 	@Test(dataProvider="wordData")
-	public void shouldntAddTwoWords(String value1, String value2)  throws Exception {
+	public void shouldntAddTwoWords(String sValue1, String sValue2)  throws Exception {
 		
-		cp = new calculatorPage(driver, test);
+		calculatorPage = new calculatorPage(driver, test);
 		
-		cp.addition(value1, value2);
+		calculatorPage.addition(sValue1, sValue2);
 		
-		rf = new ResultFactory(test);
-		Assert.assertTrue(rf.checkTheResultWord(cp.result()));
+		resultFactory = new ResultFactory(test);
+		Assert.assertTrue(resultFactory.checkTheResultWord(calculatorPage.result()));
 	}
 
 }
