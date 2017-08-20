@@ -35,7 +35,7 @@ public class calculatorDivideTest {
 		report = ExtentManager.getInstance();
 		test = report.startTest(this.getClass().getSimpleName() + " :: " + method.getName());
 		
-		driver = BrowserFactory.startBrowser("chrome", "http://localhost:81/");
+		driver = BrowserFactory.startBrowser("chrome", "http://localhost:80/");
 		test.log(LogStatus.INFO, "Browser is started...");
 	}
 
